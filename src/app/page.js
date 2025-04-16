@@ -15,8 +15,11 @@ export default function HomePage() {
   return (
     <main className="container mx-auto p-4">
       <h1 className="text-4xl font-bold mb-8 text-center text-purple-300">
-        Trending Movies & Shows (Mock Data)
+      “StreamSpeak”
+
       </h1>
+      <p className="text-xl font-bold mb-8 text-center text-purple-400">A clean, real-time discussion website for movies and web series.
+      Each title gets its own discussion room with live chat, reactions, and topic threads.</p>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
         {trendingItems.map((item) => {
           // Use movie title (item.title) or TV show name (item.name)
