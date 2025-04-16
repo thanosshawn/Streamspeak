@@ -27,15 +27,18 @@ export default function HomePage() {
           }
 
           return (
-            <Link key={item.id}  href={`/chat/${slug}`}>
-              <a>
+            <Link key={item.id}  href={`/chat/${slug}`}
+            className="group block bg-gradient-to-br from-zinc-800 to-zinc-900 hover:from-pink-600 hover:to-pink-800 p-6 rounded-2xl shadow-xl transform hover:scale-105 transition duration-300"
+           >
+              
                 <MovieCard
                   title={title}
                   // Pass the full URL from mock data
                   imageUrl={item.poster_path}
                   overview={item.overview || ''}
                 />
-              </a>
+              <h3 className="text-xl font-bold text-white group-hover:text-yellow-300 transition">{title}</h3>
+              <p className="text-sm text-zinc-400 mt-1 group-hover:text-zinc-100">Join the discussion →</p>
             </Link>
           );
         })}
