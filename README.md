@@ -11,7 +11,7 @@ Usernames or Guest Avatars | Light user identity system
 Search Bar | Quickly find a movie or show
 
 
-🛠️ Step-by-Step Build Plan
+#🛠️ Step-by-Step Build Plan
 1. Homepage: List of Titles
 Show tiles/cards of current trending movies & shows.
 
