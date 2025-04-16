@@ -33,7 +33,7 @@ export default function HomePage() {
 
          
             
-            <Link key={item.id}  href={`/chat/${slug}`}
+            <Link key={item.id}  href={`/chat`}
             className="group block bg-gradient-to-br from-zinc-800 to-zinc-900 hover:from-pink-600 hover:to-pink-800 p-6 rounded-2xl shadow-xl transform hover:scale-105 transition duration-300"
            >
               
