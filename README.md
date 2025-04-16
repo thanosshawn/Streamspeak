@@ -17,6 +17,9 @@ Show tiles/cards of current trending movies & shows.
 
 Each links to /chat/{title-slug}.
 
+
+#random
+
 Add a “+ Add New Title” form (admin-only or public).
 
 2. Title-Specific Chatroom
