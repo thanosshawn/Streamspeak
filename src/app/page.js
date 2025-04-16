@@ -27,7 +27,7 @@ export default function HomePage() {
           }
 
           return (
-            <Link key={item.id} href={`/chat/${slug}`} legacyBehavior>
+            <Link key={item.id}  href={`/chat/${slug}`}>
               <a>
                 <MovieCard
                   title={title}
