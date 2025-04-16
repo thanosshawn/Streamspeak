@@ -1,5 +1,5 @@
 # Streamspeak
-A clean, real-time discussion website for movies and web series.
+A clean  , real-time discussion website for movies and web series.
 Each title gets its own discussion room with live chat, reactions, and topic threads.
 
 Feature | Description
