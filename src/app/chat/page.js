@@ -1,10 +1,13 @@
-import { useRouter } from 'next/router';
+'use client';
+
+import { useParams, useRouter } from 'next/navigation';
 import { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 
 export default function ChatRoom() {
+  const params = useParams();
   const router = useRouter();
-  const { titleSlug } = router.query;
+  const titleSlug = params.titleSlug;
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const messagesEndRef = useRef(null);
